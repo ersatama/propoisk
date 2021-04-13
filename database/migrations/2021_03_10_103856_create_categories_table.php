@@ -13,7 +13,7 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create(CategoryContract::TABLE, function (Blueprint $table) {
             $table->id();
-            $table->enum(CategoryContract::BLOCKED,CategoryContract::STATE)->default(CategoryContract::ON);
+            $table->enum(CategoryContract::BLOCKED,CategoryContract::STATES)->default(CategoryContract::ON);
             $table->string(CategoryContract::TITLE);
             $table->string(CategoryContract::TITLE_KZ)->nullable();
             $table->string(CategoryContract::TITLE_EN)->nullable();

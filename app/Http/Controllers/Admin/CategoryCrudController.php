@@ -29,7 +29,7 @@ class CategoryCrudController extends CrudController
     public function setupShowOperation()
     {
         $this->crud->set('show.setFromDb', false);
-        CRUD::column(CategoryContract::STATUS)->label('Статус');
+        CRUD::column(CategoryContract::BLOCKED)->label('Статус');
         CRUD::column(CategoryContract::TITLE)->label('Название');
         CRUD::column(CategoryContract::ICON)->label('Иконка');
         CRUD::column(CategoryContract::IMG)->label('Картина');
@@ -37,7 +37,7 @@ class CategoryCrudController extends CrudController
 
     protected function setupListOperation()
     {
-        CRUD::column(CategoryContract::STATUS)->label('Статус');
+        CRUD::column(CategoryContract::BLOCKED)->label('Статус');
         CRUD::column(CategoryContract::TITLE)->label('Название');
         CRUD::column(CategoryContract::ICON)->label('Иконка');
         CRUD::column(CategoryContract::IMG)->label('Картина');

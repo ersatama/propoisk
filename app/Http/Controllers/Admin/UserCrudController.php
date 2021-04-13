@@ -45,25 +45,26 @@ class UserCrudController extends CrudController
 
     protected function setupListOperation()
     {
-        CRUD::column('status')->label('Статус');
-        CRUD::column('blocked')->label('Заблокирован');
-        CRUD::column('name')->label('Имя');
-        CRUD::column('surname')->label('Фамилия');
-        CRUD::column('phone')->label('Телефон');
-        CRUD::column('email')->label('Эл.почта');
+        CRUD::column(UserContract::ID)->label('ID');
+        CRUD::column(UserContract::STATUS)->label('Статус');
+        CRUD::column(UserContract::BLOCKED)->label('Заблокирован');
+        CRUD::column(UserContract::NAME)->label('Имя');
+        CRUD::column(UserContract::SURNAME)->label('Фамилия');
+        CRUD::column(UserContract::PHONE)->label('Телефон');
+        CRUD::column(UserContract::EMAIL)->label('Эл.почта');
     }
 
     protected function setupUpdateOperation()
     {
         CRUD::setValidation(UserRequest::class);
 
-        CRUD::field('status')->label('Статус')->type('select_from_array')->options([
+        CRUD::field(UserContract::STATUS)->label('Статус')->type('select_from_array')->options([
             UserContract::USER          =>  UserContract::TRANSLATE[UserContract::USER],
             UserContract::ADMIN         =>  UserContract::TRANSLATE[UserContract::ADMIN],
             UserContract::SUPER_ADMIN   =>  UserContract::TRANSLATE[UserContract::SUPER_ADMIN],
         ]);
 
-        CRUD::field('blocked')->label('Заблокирован')->type('select_from_array')->options([
+        CRUD::field(UserContract::BLOCKED)->label('Заблокирован')->type('select_from_array')->options([
             UserContract::ON    =>  UserContract::TRANSLATE[UserContract::ON],
             UserContract::OFF   =>  UserContract::TRANSLATE[UserContract::OFF],
         ]);

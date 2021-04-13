@@ -34,7 +34,8 @@ class CategoryRequest extends FormRequest
             CategoryContract::DESCRIPTION       =>  'nullable|string',
             CategoryContract::DESCRIPTION_EN    =>  'nullable|string',
             CategoryContract::DESCRIPTION_KZ    =>  'nullable|string',
-            CategoryContract::ICON              =>  'nullable|mimes:jpeg,png,jpg'
+            CategoryContract::ICON              =>  'nullable|mimes:jpeg,png,jpg',
+            CategoryContract::IMG               =>  'nullable|mimes:jpeg,png,jpg'
         ];
     }
 

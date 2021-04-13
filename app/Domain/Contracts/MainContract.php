@@ -29,6 +29,13 @@ class MainContract
         self::SUPER_ADMIN
     ];
 
+    const USER_ID   =   'user_id';
+    const CITY_ID   =   'city_id';
+    const COUNTRY_ID    =   'country_id';
+    const PRICE =   'price';
+    const REGION_ID =   'region_id';
+    const SUB_CATEGORY_ID   =   'sub_category_id';
+    const CATEGORY_ID   =   'category_id';
     const TITLE_KZ  =   'title_kz';
     const TITLE_EN  =   'title_en';
     const TITLE =   'title';
@@ -52,9 +59,20 @@ class MainContract
     const API_TOKEN =   'api_token';
     const ON    =   'on';
     const OFF   =   'off';
+
     const STATE =   [
         self::ON,
         self::OFF
+    ];
+
+    const FROZEN    =   'frozen';
+    const ARCHIVE   =   'archive';
+
+    const STATES    =   [
+        self::ON,
+        self::OFF,
+        self::FROZEN,
+        self::ARCHIVE
     ];
 
     const TRANSLATE =   [
@@ -62,7 +80,7 @@ class MainContract
         UserContract::ADMIN         =>  'Модератор',
         UserContract::SUPER_ADMIN   =>  'Администратор',
         UserContract::ON            =>  'Активный',
-        UserContract::OFF           =>  'Заблокирован',
+        UserContract::OFF           =>  'Неактивный',
         'NOT_VERIFIED'              =>  'Не подтвержден',
         'VERIFIED'                  =>  'Подтвержден',
         'NOT_SPECIFIED'             =>  ''
