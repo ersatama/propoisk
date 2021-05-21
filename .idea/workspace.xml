@@ -2,99 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19f4ca2-5989-4456-89f8-26eaeffdf466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/AnnouncementContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/CityContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/CompanyContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/CountryContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/FilterContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/GlobalFilterContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/RegionContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/SubCategoryContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Contracts/TaskContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/Company/CompanyRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/Company/CompanyRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/Filter/FilterRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/Filter/FilterRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/SubCategory/SubCategoryRepositoryEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/Repositories/SubCategory/SubCategoryRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdvertisingCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AnnouncementCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ApiCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ChatCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CityCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CompanyCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CountryCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FilterCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GlobalFilterCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PaymentsCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RegionCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingsCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/StatisticsCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SubCategoryCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SupportCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TaskCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/AdvertisingRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/AnnouncementRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ApiRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ChatRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CityRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CompanyRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CountryRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/FilterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/GlobalFilterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PaymentsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/RegionRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SettingsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StatisticsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SubCategoryRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SupportRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/TaskRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Advertising.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Announcement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Chat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/GlobalFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Payments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Region.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Statistics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/SubCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Support.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_083253_create_sub_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_091030_create_filters_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_102210_create_global_filters_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_161149_create_announcements_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_01_161524_create_tasks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_055022_create_countries_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_072527_create_regions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_074637_create_cities_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_080718_create_statistics_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_081422_create_companies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_081852_create_advertisings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_082046_create_chats_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_082208_create_supports_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_082357_create_payments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_02_083930_create_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_05_171319_create_apis_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/Contracts/MainContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Contracts/MainContract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/backpack/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/backpack/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_10_103856_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_10_103856_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/packages/backpack/base/css/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/packages/backpack/base/css/bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SubCategoryCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SubCategoryCrudController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,23 +139,23 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../emart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack\base\auth" />
-      <recent name="C:\OpenServer\domains\proпоиск\app\Http\Controllers\Admin\Auth" />
-      <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack\base\layouts" />
-      <recent name="C:\OpenServer\domains\proпоиск\resources\lang\vendor\backpack" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\proпоиск\app\Http\Controllers\Admin\Auth" />
       <recent name="C:\OpenServer\domains\proпоиск\resources\views" />
       <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack" />
       <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack\base" />
       <recent name="C:\OpenServer\domains\proпоиск\app\Domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack\base\auth" />
+      <recent name="C:\OpenServer\domains\proпоиск\app\Http\Controllers\Admin\Auth" />
+      <recent name="C:\OpenServer\domains\proпоиск\resources\views\vendor\backpack\base\layouts" />
+      <recent name="C:\OpenServer\domains\proпоиск\resources\lang\vendor\backpack" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -269,7 +178,10 @@
       <workItem from="1617208505690" duration="13083000" />
       <workItem from="1617290201470" duration="20550000" />
       <workItem from="1617520782734" duration="21900000" />
-      <workItem from="1618133537611" duration="1768000" />
+      <workItem from="1618133537611" duration="3346000" />
+      <workItem from="1619095112843" duration="13970000" />
+      <workItem from="1619939012341" duration="72000" />
+      <workItem from="1619951274690" duration="2571000" />
     </task>
     <servers />
   </component>
@@ -284,10 +196,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="184" width="538" height="486" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617707642722" />
-    <state x="648" y="219" key="FileChooserDialogImpl" timestamp="1617345876950">
+    <state x="648" y="219" key="FileChooserDialogImpl" timestamp="1618287750788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="648" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617345876950" />
+    <state x="648" y="219" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618287750788" />
     <state width="1337" height="239" key="GridCell.Tab.0.bottom" timestamp="1613989201779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -316,10 +228,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1617349641860" />
-    <state x="565" y="221" width="579" height="534" key="find.popup" timestamp="1617294565735">
+    <state x="565" y="221" width="579" height="534" key="find.popup" timestamp="1619111426459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="221" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617294565735" />
+    <state x="565" y="221" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1619111426459" />
     <state x="522" y="205" key="run.anything.popup" timestamp="1617294522729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

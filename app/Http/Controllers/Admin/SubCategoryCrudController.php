@@ -62,9 +62,11 @@ class SubCategoryCrudController extends CrudController
             SubCategoryContract::ON    =>  SubCategoryContract::TRANSLATE[SubCategoryContract::ON],
             SubCategoryContract::OFF   =>  SubCategoryContract::TRANSLATE[SubCategoryContract::OFF],
         ])->default(SubCategoryContract::ON);
-        CRUD::field(SubCategoryContract::TITLE)->label('Название на русском (обязательное поле)')->type('text')->attributes([
-            'required'  =>  'required'
-        ]);
+        CRUD::field(SubCategoryContract::TITLE)->label('Название на русском (обязательное поле)')
+            ->type('text')
+            ->attributes([
+                'required'  =>  'required'
+            ]);
         CRUD::field(SubCategoryContract::TITLE_KZ)->label('Название на казахском')->type('text');
         CRUD::field(SubCategoryContract::TITLE_EN)->label('Название на англииском')->type('text');
         CRUD::field(SubCategoryContract::DESCRIPTION)->label('Описание на русском')->type('textarea');
